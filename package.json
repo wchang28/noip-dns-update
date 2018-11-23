@@ -8,6 +8,10 @@
     "transpile": "tsc",
     "test": "node ./dist/test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/noip-dns-update.git"
+  },
   "keywords": [
     "noip.com",
     "dns"

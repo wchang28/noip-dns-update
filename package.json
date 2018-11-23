@@ -1,0 +1,25 @@
+{
+  "name": "noip-dns-update",
+  "version": "1.0.0",
+  "description": "noip.com DNS Updater",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "transpile": "tsc",
+    "test": "node ./dist/test.js"
+  },
+  "keywords": [
+    "noip.com",
+    "dns"
+  ],
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.12.10",
+    "@types/superagent": "^3.8.4",
+    "superagent": "^4.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.6"
+  }
+}
